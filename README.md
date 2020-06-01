@@ -3,7 +3,7 @@
 > payment package contains all the custom types
 
 
-```mermaid
+
 classDiagram
     Payment <|-- Cash
     Payment <|-- Check
@@ -24,5 +24,3 @@ classDiagram
         ProcessPayment()
         AvailableCredit()
     }
-
-```
