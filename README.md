@@ -2,7 +2,7 @@
 
 > payment package contains all the custom types
 
-graph TD;
+
 ```mermaid
 classDiagram
     Payment <|-- Cash
