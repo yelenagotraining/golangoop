@@ -2,8 +2,7 @@
 
 > payment package contains all the custom types
 
-
-
+```
 classDiagram
     Payment <|-- Cash
     Payment <|-- Check
@@ -24,3 +23,4 @@ classDiagram
         ProcessPayment()
         AvailableCredit()
     }
+```
